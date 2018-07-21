@@ -65,7 +65,7 @@ def movieAssistant(movie, n):
 def ed2kWrite(movie, ed2k):
     # 判断文件是否存在
     # filepath = os.getcwd()+'\\download\\'+ movie+'.txt'
-    filepath = os.getcwd()+ movie+'.txt'
+    filepath = os.getcwd() +'\\'+movie+'.txt'
     if os.path.exists(filepath):
         # os.remove(filepath)
         with open(filepath, 'a', encoding='utf-8') as f:
